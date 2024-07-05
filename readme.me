@@ -1,0 +1,52 @@
+1. ###############################################
+-> npm i -g express-generator
+-> express -h
+-> express --no-view <!-- (install files) -->
+
+2. ###############################################
+-> npm i dotenv concurrently
+-> npm i -D nodemon
+
+3. ###############################################
+-> package.json => [
+   "scripts": {
+	"start": "node ./bin/www",
+    -> "server": "nodemon ./bin/www"
+},
+]
+-> npm run server
+
+4. ###############################################
+-> create controllers
+
+5. ###############################################
+-> npm install prisma --save-dev
+-> npm i @prisma/client
+-> npx prisma init
+
+6. ###############################################
+<!-- (create 2 files in prisma folder) -->
+-> prisma-client.js
+-> schema.prisma
+
+7. ###############################################
+-> npx prisma studio
+
+8. ###############################################
+-> npm i bcrypt
+-> npm i jsonwebtoken
+
+9. ###############################################
+-> npx prisma migrate
+-> npx prisma generate
+
+
+-> npm run server
+
+
+##################################################
+Nkarneri hamar
+
+-> npm install multiparty
+-> npm install fs
+-> npm install path
